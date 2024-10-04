@@ -1,6 +1,6 @@
 name: Lint
 
-on: [commit]
+on: [push]
 
 jobs:
   lint:
