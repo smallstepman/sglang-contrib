@@ -20,4 +20,4 @@ repos:
     rev: v1.11.2 
     hooks:
     -   id: mypy
-        args: [--strict, --ignore-missing-imports, --explicit-package-bases=python/]
+        args: [--strict, --ignore-missing-imports, --package=python]
