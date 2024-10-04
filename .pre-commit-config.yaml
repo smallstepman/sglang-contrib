@@ -15,3 +15,9 @@ repos:
     rev: v4.6.0
     hooks:
       - id: no-commit-to-branch
+      
+-   repo: https://github.com/pre-commit/mirrors-mypy
+    rev: 1.11.2 
+    hooks:
+    -   id: mypy
+        args: [--strict, --ignore-missing-imports]
